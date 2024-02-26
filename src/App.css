@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  position: fixed;
+  width: 100%;
+  background-color: #ECEFF1;
+  border-radius: 40px;
+  top: 0;
+}
+
+.navbar img{
+  width: 50px;
+  height: auto;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border: 1px solid #FF7043;
+}
+
+.nav-1{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 0;
+
+}
+.nav-1 p{
+  font-weight: bold;
+}
+
+.nav-2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.nav-2 button{
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #FF7043;
+  width: 100px;
+  color: #ECEFF1;
+  cursor: pointer;
+}
+
+.nav-2 button:hover{
+  color: #FF7043;
+  background-color: #ECEFF1;
+}
+
+.body{
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.body-1{
+  text-align: left;
+  padding: 40px;
+}
+
+#headline-1{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.body-1 p:nth-child(2){
+  color: #78909C;
+}
+
+.body-1 p:last-child{
+  color: #78909C;
+  font-size: small;
+}
+
+.body-1 span:last-child{
+  color: #FF7043;
+}
+.body-1 button{
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #FF7043;
+  width: 100px;
+}
+
+.body-2 img{
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.body-3 img{
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+#arrow{
+  width: 90px;
+  height: fit-content;
+  border-radius: 50%;
+  border: 2px solid #FF7043;
+}
+
+.icc{
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.icc-1{
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.icc-1 p{
+  color: #78909C;
+  font-size: small;
+}
+
+.midBody{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 40px;
+  padding-left: 120px;
+}
+
+/* .mid-img{
+  margin-top: -200px;
+} */
+
+.mid-img img{
+  width: 200px;
+  border-radius: 20px;
+}
+.mid-head{
+  text-align: left;
+  /* z-index: 1; */
+  /* position: absolute; */
+}
+
+.mid-head p{
+  color: #78909C;
+}
+
+#span{
+  color: #FF7043;
+}
+
+.mid-2{
+  text-align: left;
+  padding-left: 150px;
+}
+
+.mid-2 h2{
+  color: #FF7043;
+}
+
+.mid-2 h3:first-child{
+  color: #FF7043;
+}
+
+.mid-2 p{
+  color: #78909C;
+  width: 600px;
+}
